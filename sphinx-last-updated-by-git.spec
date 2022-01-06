@@ -4,7 +4,7 @@
 #
 Name     : sphinx-last-updated-by-git
 Version  : 0.3.0
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/d0/c8/298fecaaaceb96ca89cb41d548b3c57c4e7305f3a08543312a548414373f/sphinx-last-updated-by-git-0.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d0/c8/298fecaaaceb96ca89cb41d548b3c57c4e7305f3a08543312a548414373f/sphinx-last-updated-by-git-0.3.0.tar.gz
 Summary  : Get the "last updated" time for each Sphinx page from Git
@@ -90,7 +90,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1637350805
+export SOURCE_DATE_EPOCH=1641427445
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
