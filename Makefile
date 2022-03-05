@@ -1,5 +1,5 @@
 PKG_NAME := pypi-sphinx_last_updated_by_git
-URL = https://files.pythonhosted.org/packages/d0/c8/298fecaaaceb96ca89cb41d548b3c57c4e7305f3a08543312a548414373f/sphinx-last-updated-by-git-0.3.0.tar.gz
+URL = https://files.pythonhosted.org/packages/43/af/cee6452ae6256cd0e9bd505d0362ea5c7e8ba3d0db8fd7cf31ef67d1b3e9/sphinx-last-updated-by-git-0.3.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
