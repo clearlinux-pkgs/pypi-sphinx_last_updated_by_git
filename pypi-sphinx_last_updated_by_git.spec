@@ -4,7 +4,7 @@
 #
 Name     : pypi-sphinx_last_updated_by_git
 Version  : 0.3.2
-Release  : 7
+Release  : 8
 URL      : https://files.pythonhosted.org/packages/0b/10/254205fc4be9b8bbf960b07a6eaf3f17d601a45d4e71804e67db2c3002d7/sphinx-last-updated-by-git-0.3.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/0b/10/254205fc4be9b8bbf960b07a6eaf3f17d601a45d4e71804e67db2c3002d7/sphinx-last-updated-by-git-0.3.2.tar.gz
 Summary  : Get the "last updated" time for each Sphinx page from Git
@@ -51,7 +51,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1653059990
+export SOURCE_DATE_EPOCH=1656370029
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -87,7 +87,7 @@ export FCFLAGS="$FCFLAGS -m64 -march=x86-64-v3 "
 export LDFLAGS="$LDFLAGS -m64 -march=x86-64-v3 "
 python3 -tt setup.py build install --root=%{buildroot}-v3
 popd
-/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot}/usr/share/clear/optimized-elf/ %{buildroot}/usr/share/clear/filemap/filemap-%{name}
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)
