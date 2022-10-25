@@ -4,7 +4,7 @@
 #
 Name     : pypi-sphinx_last_updated_by_git
 Version  : 0.3.4
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/7c/19/73a2d88e9aa8d89c9961905cdd0dfcd48f8efaee47228a2446d5436960a2/sphinx-last-updated-by-git-0.3.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7c/19/73a2d88e9aa8d89c9961905cdd0dfcd48f8efaee47228a2446d5436960a2/sphinx-last-updated-by-git-0.3.4.tar.gz
 Summary  : Get the "last updated" time for each Sphinx page from Git
