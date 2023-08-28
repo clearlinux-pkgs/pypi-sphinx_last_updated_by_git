@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-sphinx_last_updated_by_git
-Version  : 0.3.5
-Release  : 17
-URL      : https://files.pythonhosted.org/packages/c1/0a/dd7da742dca66caa902500c45f2d70c6935c46d08f4241017deebebb2edd/sphinx-last-updated-by-git-0.3.5.tar.gz
-Source0  : https://files.pythonhosted.org/packages/c1/0a/dd7da742dca66caa902500c45f2d70c6935c46d08f4241017deebebb2edd/sphinx-last-updated-by-git-0.3.5.tar.gz
+Version  : 0.3.6
+Release  : 18
+URL      : https://files.pythonhosted.org/packages/53/be/0c14431d822983620bd2a80627b8c490e1394d0ea0d4803ba4b28780d991/sphinx-last-updated-by-git-0.3.6.tar.gz
+Source0  : https://files.pythonhosted.org/packages/53/be/0c14431d822983620bd2a80627b8c490e1394d0ea0d4803ba4b28780d991/sphinx-last-updated-by-git-0.3.6.tar.gz
 Summary  : Get the "last updated" time for each Sphinx page from Git
 Group    : Development/Tools
 License  : BSD-2-Clause
@@ -44,10 +44,10 @@ python3 components for the pypi-sphinx_last_updated_by_git package.
 
 
 %prep
-%setup -q -n sphinx-last-updated-by-git-0.3.5
-cd %{_builddir}/sphinx-last-updated-by-git-0.3.5
+%setup -q -n sphinx-last-updated-by-git-0.3.6
+cd %{_builddir}/sphinx-last-updated-by-git-0.3.6
 pushd ..
-cp -a sphinx-last-updated-by-git-0.3.5 buildavx2
+cp -a sphinx-last-updated-by-git-0.3.6 buildavx2
 popd
 
 %build
@@ -55,7 +55,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684427042
+export SOURCE_DATE_EPOCH=1693253961
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
